@@ -1,0 +1,45 @@
+$ipad-pro-portrait-breakpoint: "(min-device-width : 1024px) and (max-device-width : 1024px) and (min-device-height : 1366px) and (max-device-height : 1366px) and (orientation: portrait)";
+$ipad-pro-landscape-breakpoint: "(min-device-width : 1024px) and (max-device-width : 1024px) and (min-device-height : 1366px) and (max-device-height : 1366px) and (orientation: landscape)";
+$tablet-landscape-breakpoint: "(min-device-width : 768px) and (max-device-width : 768px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)";
+$tablet-portrait-breakpoint: "(min-device-width : 768px) and (max-device-width : 768px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)";
+$phone-landscape-breakpoint: "(min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)";
+$phone-portrait-breakpoint: "(min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)";
+$desktop-only-breakpoint: "(min-device-width: 1200px)";
+$desktop-only-breakpoint-ms: "(-ms-high-contrast: none), (-ms-high-contrast: active)";
+
+@media only screen and #{$desktop-only-breakpoint} {
+  @import 'desktop';
+}
+
+@media only screen and #{$desktop-only-breakpoint-ms} {
+  @import 'desktop-ms';
+  @import 'desktop';
+}
+
+@media only screen and #{$ipad-pro-portrait-breakpoint} {
+  @import 'tablet-portrait';
+  @import 'tablet';
+}
+
+@media only screen and #{$ipad-pro-landscape-breakpoint} {
+  @import 'tablet-landscape';
+  @import 'tablet';
+}
+
+@media only screen and #{$tablet-portrait-breakpoint} {
+  @import 'tablet-portrait';
+  @import 'tablet';
+}
+
+@media only screen and #{$tablet-landscape-breakpoint} {
+  @import 'tablet-landscape';
+  @import 'tablet';
+}
+
+@media only screen and #{$phone-landscape-breakpoint} {
+  @import 'phone-landscape';
+}
+
+@media only screen and #{$phone-portrait-breakpoint} {
+  @import 'phone';
+}

@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'WeareDepraved';
+  src: url('../fonts/WeareDepraved.woff') format('woff');
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+  #m-header-text {
+    font-size: 24pt;
+  	font-family: WeareDepraved;
+  	color: #FFFFFF;
+  	letter-spacing: 4.7px;
+  }
+
+  #m-subheading-text {
+    font-size: 18pt;
+    color: #FFFFFF;
+  }
+
+  .form-field-titles {
+    font-size: 18pt;
+  }
+
+  #inner-buy-header * {
+    color: #FFFFFF;
+  }
+
+  .learn-more-text {
+    font-size: 12pt;
+    color: white;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  nav {
+  	font-size: 10pt;
+  	word-spacing: 7px;
+  }
+
+  nav>ul>li, nav>ul>li>a {
+  	color: rgba(255, 255, 255, 1);
+  }
+
+  #sub-1, #sub-2, #sub-3 {
+    font-size: 30pt;
+  }
+
+  #m-header-text {
+    font-size: 55pt;
+  	font-family: WeareDepraved;
+  	color: #FFFFFF;
+  	letter-spacing: 4.7px;
+  }
+
+  #m-subheading-text {
+    font-size: 18pt;
+    color: #FFFFFF;
+  }
+
+  .form-field-titles {
+    font-size: 18pt;
+  }
+
+  #inner-buy-header * {
+    color: #FFFFFF;
+  }
+
+  .learn-more-text {
+    font-size: 12pt;
+    color: white;
+  }
+}
+
+@media only screen and (min-device-width : 1200px) {
+  nav {
+  	font-size: 14pt;
+  	word-spacing: 7px;
+  }
+
+  nav>ul>li, nav>ul>li>a {
+  	color: rgba(255, 255, 255, 0.5);
+  }
+
+  nav:hover>ul>li, nav:hover>ul>li>a {
+  	color: rgba(255, 255, 255, 1);
+  }
+
+  .hero-text {
+  	font-size: 135pt;
+  	font-family: WeareDepraved;
+  	color: #FFFFFF;
+  	letter-spacing: 7px;
+  }
+
+  .form-field-titles {
+    font-size: 18pt;
+    font-weight: lighter;
+  }
+
+  #inner-buy-header * {
+    color: #000000;
+  }
+
+  #inner-buy-header:hover * {
+  color: #FFFFFF;
+  }
+
+  button:hover, .buy-button:hover {
+    color: #FFFFFF;
+  }
+}
+
+* {
+	font-family: Helvetica;
+	color: #000000;
+}
+
+button {
+  font-weight: bolder;
+}
+
+.logo-text {
+	font-size: 19pt;
+	word-spacing: 3px;
+	color: #FFFFFF;
+}
+
+.heading, .heading-2 {
+  font-size: 50pt;
+}
+
+#page-3 * {
+  color: #FFFFFF;
+}
+
+#box-5 * {
+  color: #000000;
+}
+
+#flex-container-5>div>p {
+  font-size: 13pt;
+}
+
+.name {
+  font-size: 20pt;
+  color: #000000;
+}
+
+.price {
+  font-size: 42pt;
+  color: #000000;
+}
+
+#submit-button {
+  font-size: 14pt;
+}
+
+#submit-button:hover {
+  color: #ffffff;
+}
+
+#form-footnote {
+  font-size: 10pt;
+}
+
+footer * {
+  color: #a6a6a6;
+}
