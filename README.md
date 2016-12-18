@@ -16,12 +16,12 @@ For a list of known issues with the codebase, please refer to the issue tracker.
 
 Right now, our roadmap for this project consists of several short term and several long term goals. 
 
-Short term:
+####Short term:
 - Finish the transition to SCSS and remove the CSS stylesheets entirely from the project
 - Increase readability and focus on documentation...comment out all code fully 
 - Move to cascading Bourbon releases and upgrade to version 5.0
 
-Long term:
+####Long term:
 - Create affiliate tracking program
 - Rework the shopping cart and checkout integration to have more complete code control 
 - Create user accounts on site
